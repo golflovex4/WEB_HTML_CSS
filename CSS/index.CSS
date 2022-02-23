@@ -1,7 +1,9 @@
 /* CSS file --> index.html */
 /* (1) Tag Selector */
 body{
-    background-color: #FCE38A;
+        background-image: url('150.png');
+        background-attachment: fixed;  
+        background-size: cover;
 }
 h1{
     text-align: center;
@@ -33,7 +35,11 @@ th{
     text-align: justify;
 }
 .p-Name{
+    font-family: normal;
     font-weight: normal;
+}
+.p-head{
+    font-family: medium;
 }
 .p-Footer{
     text-align: center;
@@ -41,22 +47,28 @@ th{
 .name{
     text-decoration: underline;
     color: rgb(0, 0, 0);
-    background-color: rgb(146, 235, 73);
 }
 /* (3) Id Selector */
 #th-Details{
     text-align: left;
+    font-weight: bolder;
 }
  
 /* div */
 .top-container{
-    background-color: orange;
+    background-color: 	#6473e26e;
+}
+.under-BG{
+    background-color: rgba(245, 245, 245, 0.466);
 }
 .table-menu td:hover{
-    background-color: #82f518;
+    background-color: #006effce;
+}
+.table-menu {
+    background-color: 	#659ff1;
 }
 .table-content h2{
-    background-color: rgb(255, 127, 244);
+    background-color:#6473e2;    
 }
 .table-content img:hover{
     background-color: rgb(17, 146, 233);
